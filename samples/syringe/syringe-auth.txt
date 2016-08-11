@@ -1,0 +1,227 @@
+SyringePump v2.0
+
+INPUT: 10
+
+Used 0.0 mL
+Bolus 0.10 mL
+[INFO] cfa_quote: 7c 16 d6 51 20 a2 a0 c7 90 f5 ef 04 0c 2e ba bc
+
+[INFO] loop[000]: 78 22 5b 62 92 41 ca 02 7b ff 29 57 c6 6f 9b a2
+[INFO] path[000]: 2f a5 8c dc 1b 35 41 29 ab dd 35 5c f2 69 08 37 (1)
+[INFO] loop[001]: d6 90 9e a0 8c ae 90 84 9e 66 09 f8 a6 7b 52 04
+[INFO] path[000]: 92 fb d1 e8 90 cb 02 e5 6c f2 65 8c 86 72 0e d3 (2)
+[INFO] loop[002]: ff e1 39 f8 17 97 b3 12 1f 30 28 74 e7 b7 d3 92
+[INFO] path[000]: 2f a5 8c dc 1b 35 41 29 ab dd 35 5c f2 69 08 37 (1)
+[INFO] loop[003]: 46 9c 4b 68 53 d4 18 7d 7d 8f 0b c3 48 5b 33 a0
+[INFO] path[000]: 92 fb d1 e8 90 cb 02 e5 6c f2 65 8c 86 72 0e d3 (2)
+[INFO] loop[004]: eb 16 88 8a d2 3b c6 19 f9 01 94 5d ee cb 1c 13
+[INFO] path[000]: b9 7d cf 8d 00 b6 5f 63 b3 7c 60 e4 e3 be 56 17 (1)
+[INFO] loop[005]: eb 16 88 8a d2 3b c6 19 f9 01 94 5d ee cb 1c 13
+[INFO] path[000]: b9 7d cf 8d 00 b6 5f 63 b3 7c 60 e4 e3 be 56 17 (1)
+[INFO] loop[006]: 05 e3 92 40 95 ef 7b 46 13 7d 6e 8b 05 be bf 41
+[INFO] path[000]: 67 c6 5e d4 18 13 02 bc 4a 5d 60 a0 16 85 f4 ed (9)
+[INFO] path[001]: 78 19 af 09 0f d5 64 f4 39 b4 7a 0d 97 57 77 8c (2)
+[INFO] loop[007]: eb 16 88 8a d2 3b c6 19 f9 01 94 5d ee cb 1c 13
+[INFO] path[000]: b9 7d cf 8d 00 b6 5f 63 b3 7c 60 e4 e3 be 56 17 (1)
+[INFO] loop[008]: 6d 05 6e b2 3a 27 1e 2b 78 3e f9 4c e3 a7 cb f8
+[INFO] path[000]: 62 f7 b8 0b 65 4b de 35 c7 05 bc 28 06 43 11 6e (1)
+[INFO] loop[009]: eb 16 88 8a d2 3b c6 19 f9 01 94 5d ee cb 1c 13
+[INFO] path[000]: b9 7d cf 8d 00 b6 5f 63 b3 7c 60 e4 e3 be 56 17 (2)
+[INFO] loop[010]: 47 d0 ce 3d 23 6e bc f1 7f 1f 4f 61 bf e9 a9 60
+[INFO] path[000]: 67 c6 5e d4 18 13 02 bc 4a 5d 60 a0 16 85 f4 ed (10)
+[INFO] path[001]: 78 19 af 09 0f d5 64 f4 39 b4 7a 0d 97 57 77 8c (2)
+[INFO] loop[011]: b6 54 50 30 ef 16 73 61 21 12 d0 a8 2e 4d 3e 6c
+[INFO] path[000]: 74 af 0f dc 3b 17 ff 67 03 72 d0 db fe b5 94 78 (11)
+[INFO] loop[012]: a5 04 21 91 ac 9b 70 9a 49 1e 61 dd e4 8b 91 db
+[INFO] path[000]: 74 af 0f dc 3b 17 ff 67 03 72 d0 db fe b5 94 78 (2)
+[INFO] loop[013]: 74 58 fb 20 2c 63 54 7e e4 ae a5 98 75 ef 5f 6c
+[INFO] path[000]: 74 af 0f dc 3b 17 ff 67 03 72 d0 db fe b5 94 78 (13)
+[INFO] loop[014]: 7b 91 ba 41 5d 76 05 1e 8f ef 75 c5 b3 ad 44 9c
+[INFO] path[000]: 74 af 0f dc 3b 17 ff 67 03 72 d0 db fe b5 94 78 (2)
+
+INPUT: +
+
+Used 0.10 mL
+Bolus 0.10 mL
+[INFO] cfa_quote: 57 92 0f 9e 98 47 30 bb a5 f7 5d 2a dc 8a 7b 5f
+
+[INFO] loop[000]: b3 c5 ca c4 6f dc 6a d0 4a 80 10 09 af a3 59 70
+[INFO] path[000]: 97 78 fb fc 93 09 4e d7 ac 32 5d 65 eb 29 08 0c (68)
+[INFO] loop[001]: eb 16 88 8a d2 3b c6 19 f9 01 94 5d ee cb 1c 13
+[INFO] path[000]: b9 7d cf 8d 00 b6 5f 63 b3 7c 60 e4 e3 be 56 17 (1)
+[INFO] loop[002]: 6d 05 6e b2 3a 27 1e 2b 78 3e f9 4c e3 a7 cb f8
+[INFO] path[000]: 62 f7 b8 0b 65 4b de 35 c7 05 bc 28 06 43 11 6e (1)
+[INFO] loop[003]: eb 16 88 8a d2 3b c6 19 f9 01 94 5d ee cb 1c 13
+[INFO] path[000]: b9 7d cf 8d 00 b6 5f 63 b3 7c 60 e4 e3 be 56 17 (2)
+[INFO] loop[004]: f5 77 b7 94 bd 6c 81 e2 2f 36 da ad cd df 56 6e
+[INFO] path[000]: 67 c6 5e d4 18 13 02 bc 4a 5d 60 a0 16 85 f4 ed (9)
+[INFO] path[001]: 78 19 af 09 0f d5 64 f4 39 b4 7a 0d 97 57 77 8c (2)
+[INFO] loop[005]: eb 16 88 8a d2 3b c6 19 f9 01 94 5d ee cb 1c 13
+[INFO] path[000]: b9 7d cf 8d 00 b6 5f 63 b3 7c 60 e4 e3 be 56 17 (1)
+[INFO] loop[006]: 6d 05 6e b2 3a 27 1e 2b 78 3e f9 4c e3 a7 cb f8
+[INFO] path[000]: 62 f7 b8 0b 65 4b de 35 c7 05 bc 28 06 43 11 6e (1)
+[INFO] loop[007]: eb 16 88 8a d2 3b c6 19 f9 01 94 5d ee cb 1c 13
+[INFO] path[000]: b9 7d cf 8d 00 b6 5f 63 b3 7c 60 e4 e3 be 56 17 (2)
+[INFO] loop[008]: ca 34 cb 8a 0b 8a 76 41 0f 59 e9 b2 8d 76 91 30
+[INFO] path[000]: 67 c6 5e d4 18 13 02 bc 4a 5d 60 a0 16 85 f4 ed (10)
+[INFO] path[001]: 78 19 af 09 0f d5 64 f4 39 b4 7a 0d 97 57 77 8c (2)
+[INFO] loop[009]: 2d 80 99 2c f1 61 b1 19 53 4d 0a 96 be be a8 1f
+[INFO] path[000]: 74 af 0f dc 3b 17 ff 67 03 72 d0 db fe b5 94 78 (12)
+[INFO] loop[010]: d2 32 da 39 c8 7f 0d bb 13 c0 a7 12 7d 4b 0c ce
+[INFO] path[000]: 74 af 0f dc 3b 17 ff 67 03 72 d0 db fe b5 94 78 (2)
+[INFO] loop[011]: 73 e3 be b7 33 30 58 5a 59 1b 2b c0 60 50 c6 36
+[INFO] path[000]: 74 af 0f dc 3b 17 ff 67 03 72 d0 db fe b5 94 78 (13)
+[INFO] loop[012]: c2 88 83 00 68 dd 41 32 2c 0d 37 f6 d3 be fd 09
+[INFO] path[000]: 74 af 0f dc 3b 17 ff 67 03 72 d0 db fe b5 94 78 (2)
+
+INPUT: 20
+
+Used 0.10 mL
+Bolus 0.20 mL
+[INFO] cfa_quote: 7c 16 d6 51 20 a2 a0 c7 90 f5 ef 04 0c 2e ba bc
+
+[INFO] loop[000]: 78 22 5b 62 92 41 ca 02 7b ff 29 57 c6 6f 9b a2
+[INFO] path[000]: 2f a5 8c dc 1b 35 41 29 ab dd 35 5c f2 69 08 37 (1)
+[INFO] loop[001]: d6 90 9e a0 8c ae 90 84 9e 66 09 f8 a6 7b 52 04
+[INFO] path[000]: 92 fb d1 e8 90 cb 02 e5 6c f2 65 8c 86 72 0e d3 (2)
+[INFO] loop[002]: ff e1 39 f8 17 97 b3 12 1f 30 28 74 e7 b7 d3 92
+[INFO] path[000]: 2f a5 8c dc 1b 35 41 29 ab dd 35 5c f2 69 08 37 (1)
+[INFO] loop[003]: 46 9c 4b 68 53 d4 18 7d 7d 8f 0b c3 48 5b 33 a0
+[INFO] path[000]: 92 fb d1 e8 90 cb 02 e5 6c f2 65 8c 86 72 0e d3 (2)
+[INFO] loop[004]: eb 16 88 8a d2 3b c6 19 f9 01 94 5d ee cb 1c 13
+[INFO] path[000]: b9 7d cf 8d 00 b6 5f 63 b3 7c 60 e4 e3 be 56 17 (1)
+[INFO] loop[005]: 6d 05 6e b2 3a 27 1e 2b 78 3e f9 4c e3 a7 cb f8
+[INFO] path[000]: 62 f7 b8 0b 65 4b de 35 c7 05 bc 28 06 43 11 6e (1)
+[INFO] loop[006]: eb 16 88 8a d2 3b c6 19 f9 01 94 5d ee cb 1c 13
+[INFO] path[000]: b9 7d cf 8d 00 b6 5f 63 b3 7c 60 e4 e3 be 56 17 (2)
+[INFO] loop[007]: 05 e3 92 40 95 ef 7b 46 13 7d 6e 8b 05 be bf 41
+[INFO] path[000]: 67 c6 5e d4 18 13 02 bc 4a 5d 60 a0 16 85 f4 ed (9)
+[INFO] path[001]: 78 19 af 09 0f d5 64 f4 39 b4 7a 0d 97 57 77 8c (2)
+[INFO] loop[008]: eb 16 88 8a d2 3b c6 19 f9 01 94 5d ee cb 1c 13
+[INFO] path[000]: b9 7d cf 8d 00 b6 5f 63 b3 7c 60 e4 e3 be 56 17 (1)
+[INFO] loop[009]: 6d 05 6e b2 3a 27 1e 2b 78 3e f9 4c e3 a7 cb f8
+[INFO] path[000]: 62 f7 b8 0b 65 4b de 35 c7 05 bc 28 06 43 11 6e (1)
+[INFO] loop[010]: eb 16 88 8a d2 3b c6 19 f9 01 94 5d ee cb 1c 13
+[INFO] path[000]: b9 7d cf 8d 00 b6 5f 63 b3 7c 60 e4 e3 be 56 17 (2)
+[INFO] loop[011]: 47 d0 ce 3d 23 6e bc f1 7f 1f 4f 61 bf e9 a9 60
+[INFO] path[000]: 67 c6 5e d4 18 13 02 bc 4a 5d 60 a0 16 85 f4 ed (10)
+[INFO] path[001]: 78 19 af 09 0f d5 64 f4 39 b4 7a 0d 97 57 77 8c (2)
+[INFO] loop[012]: b6 54 50 30 ef 16 73 61 21 12 d0 a8 2e 4d 3e 6c
+[INFO] path[000]: 74 af 0f dc 3b 17 ff 67 03 72 d0 db fe b5 94 78 (12)
+[INFO] loop[013]: a5 04 21 91 ac 9b 70 9a 49 1e 61 dd e4 8b 91 db
+[INFO] path[000]: 74 af 0f dc 3b 17 ff 67 03 72 d0 db fe b5 94 78 (2)
+[INFO] loop[014]: 74 58 fb 20 2c 63 54 7e e4 ae a5 98 75 ef 5f 6c
+[INFO] path[000]: 74 af 0f dc 3b 17 ff 67 03 72 d0 db fe b5 94 78 (13)
+[INFO] loop[015]: 7b 91 ba 41 5d 76 05 1e 8f ef 75 c5 b3 ad 44 9c
+[INFO] path[000]: 74 af 0f dc 3b 17 ff 67 03 72 d0 db fe b5 94 78 (2)
+
+INPUT: +
+
+Used 0.30 mL
+Bolus 0.20 mL
+[INFO] cfa_quote: 57 92 0f 9e 98 47 30 bb a5 f7 5d 2a dc 8a 7b 5f
+
+[INFO] loop[000]: b3 c5 ca c4 6f dc 6a d0 4a 80 10 09 af a3 59 70
+[INFO] path[000]: 97 78 fb fc 93 09 4e d7 ac 32 5d 65 eb 29 08 0c (136)
+[INFO] loop[001]: eb 16 88 8a d2 3b c6 19 f9 01 94 5d ee cb 1c 13
+[INFO] path[000]: b9 7d cf 8d 00 b6 5f 63 b3 7c 60 e4 e3 be 56 17 (1)
+[INFO] loop[002]: 6d 05 6e b2 3a 27 1e 2b 78 3e f9 4c e3 a7 cb f8
+[INFO] path[000]: 62 f7 b8 0b 65 4b de 35 c7 05 bc 28 06 43 11 6e (1)
+[INFO] loop[003]: eb 16 88 8a d2 3b c6 19 f9 01 94 5d ee cb 1c 13
+[INFO] path[000]: b9 7d cf 8d 00 b6 5f 63 b3 7c 60 e4 e3 be 56 17 (2)
+[INFO] loop[004]: f5 77 b7 94 bd 6c 81 e2 2f 36 da ad cd df 56 6e
+[INFO] path[000]: 67 c6 5e d4 18 13 02 bc 4a 5d 60 a0 16 85 f4 ed (9)
+[INFO] path[001]: 78 19 af 09 0f d5 64 f4 39 b4 7a 0d 97 57 77 8c (2)
+[INFO] loop[005]: eb 16 88 8a d2 3b c6 19 f9 01 94 5d ee cb 1c 13
+[INFO] path[000]: b9 7d cf 8d 00 b6 5f 63 b3 7c 60 e4 e3 be 56 17 (1)
+[INFO] loop[006]: 6d 05 6e b2 3a 27 1e 2b 78 3e f9 4c e3 a7 cb f8
+[INFO] path[000]: 62 f7 b8 0b 65 4b de 35 c7 05 bc 28 06 43 11 6e (1)
+[INFO] loop[007]: eb 16 88 8a d2 3b c6 19 f9 01 94 5d ee cb 1c 13
+[INFO] path[000]: b9 7d cf 8d 00 b6 5f 63 b3 7c 60 e4 e3 be 56 17 (2)
+[INFO] loop[008]: ca 34 cb 8a 0b 8a 76 41 0f 59 e9 b2 8d 76 91 30
+[INFO] path[000]: 67 c6 5e d4 18 13 02 bc 4a 5d 60 a0 16 85 f4 ed (10)
+[INFO] path[001]: 78 19 af 09 0f d5 64 f4 39 b4 7a 0d 97 57 77 8c (2)
+[INFO] loop[009]: 2d 80 99 2c f1 61 b1 19 53 4d 0a 96 be be a8 1f
+[INFO] path[000]: 74 af 0f dc 3b 17 ff 67 03 72 d0 db fe b5 94 78 (12)
+[INFO] loop[010]: d2 32 da 39 c8 7f 0d bb 13 c0 a7 12 7d 4b 0c ce
+[INFO] path[000]: 74 af 0f dc 3b 17 ff 67 03 72 d0 db fe b5 94 78 (2)
+[INFO] loop[011]: 73 e3 be b7 33 30 58 5a 59 1b 2b c0 60 50 c6 36
+[INFO] path[000]: 74 af 0f dc 3b 17 ff 67 03 72 d0 db fe b5 94 78 (13)
+[INFO] loop[012]: c2 88 83 00 68 dd 41 32 2c 0d 37 f6 d3 be fd 09
+[INFO] path[000]: 74 af 0f dc 3b 17 ff 67 03 72 d0 db fe b5 94 78 (2)
+
+INPUT: 100
+
+Used 0.30 mL
+Bolus 0.100 mL
+[INFO] cfa_quote: 7c 16 d6 51 20 a2 a0 c7 90 f5 ef 04 0c 2e ba bc
+
+[INFO] loop[000]: 78 22 5b 62 92 41 ca 02 7b ff 29 57 c6 6f 9b a2
+[INFO] path[000]: 2f a5 8c dc 1b 35 41 29 ab dd 35 5c f2 69 08 37 (1)
+[INFO] loop[001]: d6 90 9e a0 8c ae 90 84 9e 66 09 f8 a6 7b 52 04
+[INFO] path[000]: 92 fb d1 e8 90 cb 02 e5 6c f2 65 8c 86 72 0e d3 (3)
+[INFO] loop[002]: ff e1 39 f8 17 97 b3 12 1f 30 28 74 e7 b7 d3 92
+[INFO] path[000]: 2f a5 8c dc 1b 35 41 29 ab dd 35 5c f2 69 08 37 (1)
+[INFO] loop[003]: 46 9c 4b 68 53 d4 18 7d 7d 8f 0b c3 48 5b 33 a0
+[INFO] path[000]: 92 fb d1 e8 90 cb 02 e5 6c f2 65 8c 86 72 0e d3 (3)
+[INFO] loop[004]: eb 16 88 8a d2 3b c6 19 f9 01 94 5d ee cb 1c 13
+[INFO] path[000]: b9 7d cf 8d 00 b6 5f 63 b3 7c 60 e4 e3 be 56 17 (1)
+[INFO] loop[005]: 6d 05 6e b2 3a 27 1e 2b 78 3e f9 4c e3 a7 cb f8
+[INFO] path[000]: 62 f7 b8 0b 65 4b de 35 c7 05 bc 28 06 43 11 6e (1)
+[INFO] loop[006]: eb 16 88 8a d2 3b c6 19 f9 01 94 5d ee cb 1c 13
+[INFO] path[000]: b9 7d cf 8d 00 b6 5f 63 b3 7c 60 e4 e3 be 56 17 (2)
+[INFO] loop[007]: 05 e3 92 40 95 ef 7b 46 13 7d 6e 8b 05 be bf 41
+[INFO] path[000]: 67 c6 5e d4 18 13 02 bc 4a 5d 60 a0 16 85 f4 ed (9)
+[INFO] path[001]: 78 19 af 09 0f d5 64 f4 39 b4 7a 0d 97 57 77 8c (2)
+[INFO] loop[008]: eb 16 88 8a d2 3b c6 19 f9 01 94 5d ee cb 1c 13
+[INFO] path[000]: b9 7d cf 8d 00 b6 5f 63 b3 7c 60 e4 e3 be 56 17 (1)
+[INFO] loop[009]: 6d 05 6e b2 3a 27 1e 2b 78 3e f9 4c e3 a7 cb f8
+[INFO] path[000]: 62 f7 b8 0b 65 4b de 35 c7 05 bc 28 06 43 11 6e (2)
+[INFO] loop[010]: eb 16 88 8a d2 3b c6 19 f9 01 94 5d ee cb 1c 13
+[INFO] path[000]: b9 7d cf 8d 00 b6 5f 63 b3 7c 60 e4 e3 be 56 17 (3)
+[INFO] loop[011]: 47 d0 ce 3d 23 6e bc f1 7f 1f 4f 61 bf e9 a9 60
+[INFO] path[000]: 67 c6 5e d4 18 13 02 bc 4a 5d 60 a0 16 85 f4 ed (10)
+[INFO] path[001]: 78 19 af 09 0f d5 64 f4 39 b4 7a 0d 97 57 77 8c (2)
+[INFO] loop[012]: b6 54 50 30 ef 16 73 61 21 12 d0 a8 2e 4d 3e 6c
+[INFO] path[000]: 74 af 0f dc 3b 17 ff 67 03 72 d0 db fe b5 94 78 (12)
+[INFO] loop[013]: a5 04 21 91 ac 9b 70 9a 49 1e 61 dd e4 8b 91 db
+[INFO] path[000]: 74 af 0f dc 3b 17 ff 67 03 72 d0 db fe b5 94 78 (2)
+[INFO] loop[014]: 74 58 fb 20 2c 63 54 7e e4 ae a5 98 75 ef 5f 6c
+[INFO] path[000]: 74 af 0f dc 3b 17 ff 67 03 72 d0 db fe b5 94 78 (14)
+[INFO] loop[015]: 7b 91 ba 41 5d 76 05 1e 8f ef 75 c5 b3 ad 44 9c
+[INFO] path[000]: 74 af 0f dc 3b 17 ff 67 03 72 d0 db fe b5 94 78 (2)
+
+INPUT: +
+
+Used 0.130 mL
+Bolus 0.100 mL
+[INFO] cfa_quote: 57 92 0f 9e 98 47 30 bb a5 f7 5d 2a dc 8a 7b 5f
+
+[INFO] loop[000]: b3 c5 ca c4 6f dc 6a d0 4a 80 10 09 af a3 59 70
+[INFO] path[000]: 97 78 fb fc 93 09 4e d7 ac 32 5d 65 eb 29 08 0c (682)
+[INFO] loop[001]: eb 16 88 8a d2 3b c6 19 f9 01 94 5d ee cb 1c 13
+[INFO] path[000]: b9 7d cf 8d 00 b6 5f 63 b3 7c 60 e4 e3 be 56 17 (1)
+[INFO] loop[002]: 6d 05 6e b2 3a 27 1e 2b 78 3e f9 4c e3 a7 cb f8
+[INFO] path[000]: 62 f7 b8 0b 65 4b de 35 c7 05 bc 28 06 43 11 6e (2)
+[INFO] loop[003]: eb 16 88 8a d2 3b c6 19 f9 01 94 5d ee cb 1c 13
+[INFO] path[000]: b9 7d cf 8d 00 b6 5f 63 b3 7c 60 e4 e3 be 56 17 (3)
+[INFO] loop[004]: f5 77 b7 94 bd 6c 81 e2 2f 36 da ad cd df 56 6e
+[INFO] path[000]: 67 c6 5e d4 18 13 02 bc 4a 5d 60 a0 16 85 f4 ed (9)
+[INFO] path[001]: 78 19 af 09 0f d5 64 f4 39 b4 7a 0d 97 57 77 8c (2)
+[INFO] loop[005]: eb 16 88 8a d2 3b c6 19 f9 01 94 5d ee cb 1c 13
+[INFO] path[000]: b9 7d cf 8d 00 b6 5f 63 b3 7c 60 e4 e3 be 56 17 (1)
+[INFO] loop[006]: 6d 05 6e b2 3a 27 1e 2b 78 3e f9 4c e3 a7 cb f8
+[INFO] path[000]: 62 f7 b8 0b 65 4b de 35 c7 05 bc 28 06 43 11 6e (2)
+[INFO] loop[007]: eb 16 88 8a d2 3b c6 19 f9 01 94 5d ee cb 1c 13
+[INFO] path[000]: b9 7d cf 8d 00 b6 5f 63 b3 7c 60 e4 e3 be 56 17 (3)
+[INFO] loop[008]: ca 34 cb 8a 0b 8a 76 41 0f 59 e9 b2 8d 76 91 30
+[INFO] path[000]: 67 c6 5e d4 18 13 02 bc 4a 5d 60 a0 16 85 f4 ed (10)
+[INFO] path[001]: 78 19 af 09 0f d5 64 f4 39 b4 7a 0d 97 57 77 8c (2)
+[INFO] loop[009]: 2d 80 99 2c f1 61 b1 19 53 4d 0a 96 be be a8 1f
+[INFO] path[000]: 74 af 0f dc 3b 17 ff 67 03 72 d0 db fe b5 94 78 (13)
+[INFO] loop[010]: d2 32 da 39 c8 7f 0d bb 13 c0 a7 12 7d 4b 0c ce
+[INFO] path[000]: 74 af 0f dc 3b 17 ff 67 03 72 d0 db fe b5 94 78 (2)
+[INFO] loop[011]: 73 e3 be b7 33 30 58 5a 59 1b 2b c0 60 50 c6 36
+[INFO] path[000]: 74 af 0f dc 3b 17 ff 67 03 72 d0 db fe b5 94 78 (14)
+[INFO] loop[012]: c2 88 83 00 68 dd 41 32 2c 0d 37 f6 d3 be fd 09
+[INFO] path[000]: 74 af 0f dc 3b 17 ff 67 03 72 d0 db fe b5 94 78 (2)

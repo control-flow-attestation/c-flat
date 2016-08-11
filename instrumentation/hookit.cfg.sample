@@ -1,0 +1,15 @@
+[code-addresses]
+load_address   = 0x8000
+text_start     = 0x8168
+text_end       = 0x9910
+omit_addresses = 0x8b40,0x98ac,0x98ec
+
+[hook-addresses]
+hook_b               = 0xa0e4
+hook_bl              = 0xa134
+hook_bx_lr           = 0xa184
+hook_pop_r3_r4_fp_pc = 0xa1ac
+hook_pop_r5_fp_pc    = 0xa1ac
+hook_pop_fp_pc       = 0xa1ac
+hook_pop_fp_lr       = 0xa1d8
+hook_blx_r3          = 0xa200
